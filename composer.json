@@ -1,0 +1,12 @@
+{
+	"name": "qunabu/backuper",
+	"description": "SilverStripe backup module (assets and database)",
+  "type": "silverstripe-module",
+  "keywords": ["silverstripe", "CMS"],
+	"license": "BSD-3-Clause",
+	"minimum-stability": "dev",
+  "require": {
+    "ifsnop/mysqldump-php": "^2.3",
+    "alchemy/zippy": "^0.4.8"
+  }
+}
