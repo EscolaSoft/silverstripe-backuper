@@ -86,7 +86,7 @@ class Backup extends DataObject {
       $backup = DataObject::get_one('Backup', $this->ID);
       $dir = BASE_PATH.DIRECTORY_SEPARATOR.BACKAPERS_BASE.DIRECTORY_SEPARATOR.'backups'.DIRECTORY_SEPARATOR.$backup->Created;
       if (!is_dir($dir)) {
-        mkdir($dir, 0750, true);
+        mkdir($dir, 0755, true);
       }
       $this->dir = $dir;
       $this->createSqlDump();
