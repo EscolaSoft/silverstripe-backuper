@@ -7,6 +7,7 @@
 	"minimum-stability": "dev",
   "require": {
     "ifsnop/mysqldump-php": "^2.3",
-    "alchemy/zippy": "^0.4.8"
+    "alchemy/zippy": "^0.4.8",
+    "aura/sql": "^2.5"
   }
 }
